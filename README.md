@@ -20,5 +20,8 @@ nvidia-docker run -it --privileged \
 
 ## Stop
 
-docker stop simuloz          
+docker stop simuloz    
+
+**(A utiliser avec precaution : )**
+
 docker rm $(docker ps -a -q)
