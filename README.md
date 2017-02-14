@@ -2,7 +2,7 @@
 
 ## Installation
 
-You need to install nvidia-docker on your computer.
+You need to install nvidia-docker on your computer: https://github.com/NVIDIA/nvidia-docker
 
 ## Build
 
