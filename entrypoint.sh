@@ -9,7 +9,7 @@ source /catkin_ws/devel/setup.bash
 cd src
 git clone https://github.com/NaioTechnologies/simulatoz.git
 cd simulatoz
-git checkout Video_recorder
+git checkout LAAS_release
 
 cd /catkin_ws && catkin_make
 
