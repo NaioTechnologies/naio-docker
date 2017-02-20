@@ -64,7 +64,7 @@ RUN apt-get install -y libpugixml-dev \
         libjsoncpp-dev \
         libignition-math2-dev
 
-ENV GAZEBO_MODEL_PATH=/catkin_ws/src/simulatoz/oz440_description/models
+ENV GAZEBO_MODEL_PATH=/catkin_ws/src/simulatoz/src/oz440_description/models
 
 ENV PATH /usr/local/nvidia/bin:${PATH}
 ENV LD_LIBRARY_PATH /usr/local/nvidia/lib:/usr/local/nvidia/lib64:${LD_LIBRARY_PATH}
